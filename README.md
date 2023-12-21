@@ -31,7 +31,7 @@ Load Windows via the rescue system:
     ```
 Or using my file
   - ```bash
-       su && wget -O- "[https://archive.org/download/windows10gz/windows10.gz](https://pub-639172d805bb42959c04ca158cf082f8.r2.dev/windows10.gz)" | gunzip | dd of=/dev/sda
+       su && wget -O- "https://pub-639172d805bb42959c04ca158cf082f8.r2.dev/windows10.gz" | gunzip | dd of=/dev/sda
     ```
     - You will be prompted for a password.  The password is the one you enterred when putting the vps into recovery mode.
        - Additionally, this step may take some time so be patient.
